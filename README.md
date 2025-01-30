@@ -65,22 +65,22 @@ The dataset contains labeled contexts along with metadata about the workers, the
 
 Available inside `notebooks` directory.
 
-    - **R001_AWS_Labelling_Dataset_Preprocessing_Mturk.ipynb**
+    - *R001_AWS_Labelling_Dataset_Preprocessing_Mturk.ipynb*
         - Used to pre-process data for Mechanical Turk (MTurk) labeling.
 
-    - **R001_AWS_MTurk_API.ipynb**
+    - *R001_AWS_MTurk_API.ipynb*
         - Used to communicate with MTurk workers.
 
-    - **R001_AWS_MTurk_process_results.ipynb**
+    - *R001_AWS_MTurk_process_results.ipynb*
         - Used to process crowd-sourced results from MTurk.
 
-    - **R_001_Creating_the_RS_superset.ipynb**
+    - *R_001_Creating_the_RS_superset.ipynb*
         - Used to collect the original and reproducibility studies.
 
-    - **R_001_Extract_Citing_Paper_Details.ipynb**
+    - *R_001_Extract_Citing_Paper_Details.ipynb*
         - Used to collect citing paper details and contexts using the Semantic Scholar Graph API (S2GA).
 
-    - **R_001_MTurk_Sentiment_Analysis_5_models.ipynb**
+    - *R_001_MTurk_Sentiment_Analysis_5_models.ipynb*
         - Generates the performance measures for the selected five open-source multiclass sentiment analysis models.
 
 <!-- ## Citation ## -->
