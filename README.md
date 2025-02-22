@@ -1,4 +1,4 @@
-# CC25k: Citation Contexts Dataset for Computational Reproducibility [![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2F4H8WU-blue)](https://doi.org/10.17605/OSF.IO/4H8WU)
+# CC25k: A Citation Contexts Dataset for AI Computational Reproducibility [![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2F4H8WU-blue)](https://doi.org/10.17605/OSF.IO/4H8WU)
 
 This repository contains the files and code we used to prepare the CC25k: Citation Contexts Dataset for Computational Reproducibility. This is an extended work of our initial project [<b>"Can citations tell us about a paper’s reproducibility? A
 case study of machine learning papers"</b>](https://github.com/lamps-lab/ccair-ai-reproducibility).
@@ -37,8 +37,7 @@ Available in the `dataset` directory
 
 ### Dataset Description
 
-The CC25k dataset is unique in its focus on **reproducibility-oriented sentiments** within scientific literature. This introduces a novel approach to studying computational reproducibility by leveraging citation contexts, which are textual fragments in scientific papers that reference prior work. This dataset comprises 25,829 labeled citation contexts, each annotated with one of three sentiment labels: `positive`, `negative`, or `neutral`. These labels reflect the cited work's perceived reproducibility. Unlike traditional sentiment or citation datasets, CC25k uniquely focuses on reproducibility-related signals. 
-The dataset contains labeled contexts along with metadata about the workers, their labeling process, and the final aggregated labels. The columns in the dataset are detailed in the table below:  
+The CC25k dataset is unique in its focus on **reproducibility-oriented sentiments (ROS)** within scientific literature. This introduces a novel approach to studying computational reproducibility by leveraging citation contexts, which are textual fragments in scientific papers that reference prior work. This dataset comprises 25,829 labeled citation contexts from scientific literature published at AI venues, each annotated with one of three ROS labels: `positive`, `negative`, or `neutral`. These labels reflect the cited work's perceived reproducibility. The dataset contains ROS labeled contexts along with metadata about the workers, reproducibility study, related original paper, and citing paper, and the final aggregated labels. The columns in the dataset are detailed in the table below:  
 
 
 | **Column Name**               | **Description** |

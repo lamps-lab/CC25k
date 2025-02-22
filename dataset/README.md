@@ -4,8 +4,7 @@ The CC25k dataset consists of labeled citation contexts obtained through crowdso
 
 ## Dataset Description
 
-The CC25k dataset is unique in its focus on **reproducibility-oriented sentiments** within scientific literature. This introduces a novel approach to studying computational reproducibility by leveraging citation contexts, which are textual fragments in scientific papers that reference prior work. This dataset comprises 25,829 labeled citation contexts, each annotated with one of three sentiment labels: positive, negative, or neutral. These labels reflect the cited work's perceived reusability or reproducibility. Unlike traditional sentiment or citation datasets, CC25k uniquely focuses on reproducibility-related signals. 
-The dataset contains labeled contexts along with metadata about the workers, their labeling process,  reproducibility study, citing paper, original paper, and the final aggregated labels. The columns in the dataset are detailed in the table below:  
+The CC25k dataset is unique in its focus on **reproducibility-oriented sentiments (ROS)** within scientific literature. This introduces a novel approach to studying computational reproducibility by leveraging citation contexts, which are textual fragments in scientific papers that reference prior work. This dataset comprises 25,829 labeled citation contexts from scientific literature published at AI venues, each annotated with one of three ROS labels: `positive`, `negative`, or `neutral`. These labels reflect the cited work's perceived reproducibility. The dataset contains ROS labeled contexts along with metadata about the workers, reproducibility study, related original paper, and citing paper, and the final aggregated labels. The columns in the dataset are detailed in the table below:  The columns in the dataset are detailed in the table below:  
 
 
 | **Column Name**               | **Description** |
