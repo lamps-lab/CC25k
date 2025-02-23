@@ -1,4 +1,4 @@
-# CC25k: A Citation Contexts Dataset for AI Computational Reproducibility [![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2F4H8WU-blue)](https://doi.org/10.17605/OSF.IO/4H8WU)
+# CC25k: A Citation Contexts Dataset for Reproducibility-Oriented Sentiment Analysis [![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2F4H8WU-blue)](https://doi.org/10.17605/OSF.IO/4H8WU)
 
 This repository contains the files and code we used to prepare the CC25k: Citation Contexts Dataset for Computational Reproducibility. This is an extended work of our initial project [<b>"Can citations tell us about a paper’s reproducibility? A
 case study of machine learning papers"</b>](https://github.com/lamps-lab/ccair-ai-reproducibility).
