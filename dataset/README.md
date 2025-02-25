@@ -32,7 +32,7 @@ The CC25k dataset is unique in its focus on **reproducibility-oriented sentiment
 | `rs_venue`             | Venue (conference or journal) where the reproducibility study was published. |
 | `rs_selected_claims`   | Number of claims selected from the original paper for reproducibility study (by manual inspection). |
 | `rs_reproduced_claims` | Number of selected claims that were successfully reproduced (by manual inspection). |
-| `reproducibility_label`      | Final reproducibility label assigned to the original paper by manual inspection (*reproducible, not-reproducible, partially-reproducible* [if 0 < `rs_reproduced_claims` < `rs_selected_claims`]). |
+| `reproducibility`      | Final reproducibility label assigned to the original paper by manual inspection (*reproducible, not-reproducible, partially-reproducible* [if 0 < `rs_reproduced_claims` < `rs_selected_claims`]). |
 | `org_doi`              | DOI of the original (cited) paper that was assessed for reproducibility. |
 | `org_title`            | Title of the original (cited) paper. |
 | `org_authors`          | List of authors of the original (cited) paper. |
